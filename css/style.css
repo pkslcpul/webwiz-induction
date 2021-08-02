@@ -164,6 +164,7 @@ html{
 /* Contact Section */
 #contact{
     position: relative;
+
 }
 #contact::before{
     content: "";
@@ -191,6 +192,10 @@ html{
 
 #contact-box form{
     width: 40%;
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+
 }
 
 #contact-box label{

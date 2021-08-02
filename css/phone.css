@@ -49,8 +49,20 @@
 }
 
 /* Contact us section */
+#contact{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 #contact-box form{
     width:80%;
+    
+        padding: 14px;
+        margin: 2px 0px; 
+        margin-bottom: 20px;
+    
+}
+#form_2{
+    display: none;
 }
   
 /* Footer */

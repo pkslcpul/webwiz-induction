@@ -17,7 +17,7 @@ html{
 #navbar{
     display: flex;
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 
@@ -70,8 +70,8 @@ html{
 }
 /*index login*/
 #form_2{
-    border: red solid 2px;
-    background-color:red;
+    border: rgb(192, 188, 188) solid 2px;
+    background-color:rgb(194, 188, 188);
 }
 
 /* Home Section */
@@ -212,11 +212,7 @@ html{
 /*footer*/
 footer{
   
-body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-   }
+
    .main {
     max-height: 550px;;
     background-color: #292c2f;
@@ -225,8 +221,9 @@ body {
     text-align: center;
     line-height: 550px;
    }
+}
    footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
    }
    .footer-distributed{
@@ -366,7 +363,29 @@ body {
     margin-bottom: 5px;
    }
     
+   @media (max-width: 880px) {
     
+    .footer-distributed{
+    font: bold 14px sans-serif;
+    
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+    margin-left: 0;
+    }
+    .main {
+    line-height: normal;
+    font-size: auto;
+    }
    
 }
 

@@ -1,7 +1,9 @@
 body{
     background-color: rgb(247, 220, 220);
 }
+
 /* Navigation */
+
 #navbar {
     flex-direction: column;
 }
@@ -11,7 +13,21 @@ body{
     padding: 0px 7px;
     padding-bottom: 8px;
 }
+
+/*login*/
+.login{
+    width:80%;
+    
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+.overlay-container{
+    display: none;
+}
 /* Home section */
+
 #home{
     height: 370px; 
     padding: 3px 28px;
@@ -30,6 +46,7 @@ body{
 }
 
 /* Services section  */
+
 #services{
     flex-direction: column;
 }
@@ -41,6 +58,7 @@ body{
 }
 
 /* Clients section */
+
 #clients{
     flex-wrap: wrap;
 }
@@ -52,6 +70,7 @@ body{
 }
 
 /* Contact us section */
+
 #contact{
     flex-direction: column;
     flex-wrap: wrap;
@@ -62,11 +81,10 @@ body{
         padding: 14px;
         margin: 2px 0px; 
         margin-bottom: 20px;
+        
     
 }
-#form_2{
-    display: none;
-}
+
   
 /* Footer */
 
@@ -255,13 +273,4 @@ body {
 .btn{
     font-size: 13px;
     padding: 4px 8px;
-}
-/*LOGIN KA SETTINGS*/
-#contact-box form{
-    width:80%;
-    
-        padding: 14px;
-        margin: 2px 0px; 
-        margin-bottom: 20px;
-    
 }

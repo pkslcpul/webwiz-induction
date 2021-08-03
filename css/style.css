@@ -427,17 +427,15 @@ footer{
 	box-sizing: border-box;
 }
 
-.login{
-   
-        background: #f3e0e2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-family: 'Montserrat', sans-serif;
-        height: 100vh;
-        margin: -20px 0 50px;
-    
+ .login{
+	background:url(https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
 }
 
 h1 {
@@ -576,3 +574,4 @@ input {
 	height: 40px;
 	width: 40px;
 }
+

@@ -23,9 +23,7 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
-.overlay-container{
-    display: none;
-}
+
 /* Home section */
 
 #home{
